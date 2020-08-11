@@ -9,11 +9,11 @@
             <Entry Text="{Binding Titulo}" />
             <Label Text="Descripcion" />
             <Entry Text="{Binding Descripcion}" />
-            <Label Text="IsCompleted" />
+            <Label Text="Realizada" />
             <Switch IsToggled="{Binding IsCompleted}" />
-            <Button Text="Save" Clicked="OnSaveClicked" />
-            <Button Text="Delete" Clicked="OnDeleteClicked" />
-            <Button Text="Cancel" Clicked="OnCancelClicked" />
+            <Button Text="Guardar" Clicked="OnSaveClicked" />
+            <Button Text="Borrar" Clicked="OnDeleteClicked" />
+            <Button Text="Cancelar" Clicked="OnCancelClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
